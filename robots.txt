@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /public/data/
+
+Sitemap: https://digitalchemy-portal.vercel.app/sitemap.xml

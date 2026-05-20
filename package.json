@@ -1,0 +1,7 @@
+{
+  "name": "digitalchemy-portal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DigitAlchemy® — Capabilities Portal · Static site + Vercel Edge Middleware (HTTP Basic Auth)",
+  "license": "UNLICENSED"
+}

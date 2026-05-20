@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+.vercel
+node_modules
+.DS_Store
+Thumbs.db
+*.log
+
+# Backup files (e.g., index.html.bak-pre-bsi)
+*.bak
+*.bak-*
+*.backup
+
+# OS junk
+desktop.ini

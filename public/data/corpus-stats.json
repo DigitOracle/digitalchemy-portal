@@ -1,0 +1,17 @@
+{
+  "canonical": {
+    "standards": 762,
+    "bodies": 26,
+    "categories": 27,
+    "countries": 69,
+    "regulations": 3935,
+    "links": 38039,
+    "agents_da": 15,
+    "agents_social": 4,
+    "trademarks": 5,
+    "moat_layers": 6
+  },
+  "as_of": "2026-05-14",
+  "source": "Periodichotomy® corpus registry · DigitAlchemy® Tech Limited · ADGM 35004",
+  "note": "Reserve number changes for the corpus registry; this file is the portal's canonical reference for hero and stat-band rendering."
+}
