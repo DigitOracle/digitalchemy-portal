@@ -1528,32 +1528,36 @@
   }
   .corpus-explorer .ce-globe-loading.fade { opacity: 0; transition: opacity 0.5s; pointer-events: none; }
 
-  /* ── Google-Maps style drop pins on the globe ─────────────── */
+  /* ── Drop pins on the globe — DigitAlchemy gold palette ─── */
   .globe-pin {
     position: relative;
-    width: 28px;
-    height: 36px;
-    margin-left: -14px;   /* center the pin tip on the lat/lon */
-    margin-top: -32px;
+    width: 16px;
+    height: 22px;
+    margin-left: -8px;    /* center the pin tip on the lat/lon */
+    margin-top: -20px;
     cursor: pointer;
     transition: transform 0.18s ease, filter 0.18s ease;
-    filter: drop-shadow(0 3px 4px rgba(0,0,0,0.55));
+    filter: drop-shadow(0 2px 3px rgba(0,0,0,0.6));
     pointer-events: auto;
   }
   .globe-pin svg { display: block; width: 100%; height: 100%; }
-  .globe-pin .gp-body { fill: #EA4335; }
-  .globe-pin .gp-stroke { fill: #B31412; }
-  .globe-pin .gp-dot { fill: #FFFFFF; }
-  .globe-pin.hq .gp-body { fill: #FFC629; }
+  /* Default (country has initiatives) — brand gold */
+  .globe-pin .gp-body { fill: #C9A227; }
+  .globe-pin .gp-stroke { fill: #8C6B3F; }
+  .globe-pin .gp-dot { fill: #0B0524; }
+  /* HQ (UAE anchor jurisdiction) — bright gold + cream center */
+  .globe-pin.hq .gp-body { fill: #E5BD3F; }
   .globe-pin.hq .gp-stroke { fill: #C9A227; }
-  .globe-pin.hq .gp-dot { fill: #0B0524; }
+  .globe-pin.hq .gp-dot { fill: #FAF5ED; }
+  /* Soon (initiatives being curated) — muted bronze */
   .globe-pin.soon { opacity: 0.55; }
-  .globe-pin.soon .gp-body { fill: #8E8E8E; }
-  .globe-pin.soon .gp-stroke { fill: #555; }
+  .globe-pin.soon .gp-body { fill: #6B6862; }
+  .globe-pin.soon .gp-stroke { fill: #3a3a3a; }
+  .globe-pin.soon .gp-dot { fill: #FAF5ED; }
   .globe-pin:hover,
   .globe-pin.active {
-    transform: translateY(-4px) scale(1.18);
-    filter: drop-shadow(0 6px 10px rgba(0,0,0,0.65));
+    transform: translateY(-3px) scale(1.25);
+    filter: drop-shadow(0 5px 8px rgba(0,0,0,0.7));
     z-index: 10;
   }
   .globe-pin .gp-tooltip {
@@ -1583,12 +1587,12 @@
     position: absolute;
     left: 50%;
     bottom: 0;
-    width: 18px;
-    height: 18px;
-    margin-left: -9px;
-    margin-bottom: -2px;
+    width: 12px;
+    height: 12px;
+    margin-left: -6px;
+    margin-bottom: -1px;
     border-radius: 50%;
-    background: rgba(234, 67, 53, 0.35);
+    background: rgba(201, 162, 39, 0.45);
     animation: gp-pulse 1.6s ease-out infinite;
     pointer-events: none;
   }
